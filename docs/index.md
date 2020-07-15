@@ -5,6 +5,12 @@
 * [Getting Started](#getting-started)
   * [Requirements](#requirements)
   * [Asset Database](#asset-database)
+    * [Asset Database Schema](#asset-database-schema)
+  * [Output File](#output-file)
+  * [Config](#config)
+    * [Config File](#config-file)
+    * [Command Line Options](#command-line-options)
+* [Usage](#usage)
 
 ## What is it?
 
