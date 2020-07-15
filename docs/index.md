@@ -1,5 +1,11 @@
 # Cute Asset Pipeline
 
+* [What is it?](#what-is-it)
+* [Supported Operating Systems](#supported-operating-systems)
+* [Getting Started](#getting-started)
+  * [Requirements](#requirements)
+  * [Asset Database](#asset-database)
+
 ## What is it?
 
 Cute asset pipeline is an easy to use and automate way to change your PSD files directly to PNGs and a texture atlas.
@@ -121,4 +127,22 @@ padding=8
 
 #### Command line options
 The same options in the config file are available to be passed from the command line. Prefix the option with `--` for the command line eg `output-dir=this` in the config file would be `--output-dir this` on the command line. Command line options override config file options.
+
+
+## Usage
+
+These commands are run on the command line or terminal.
+### Creating intial asset db
+`cute_asset_pipeline init <db_file_name>`
+
+example: `cute_asset_pipeline init cute.ini` will create a db file in the current directory
+### Exporting assets
+`cute_asset_pipeline export`
+
+You can also pass [command line options](#command-line-options) here or specify `--config` to specify a different path/name to the default `cute.ini` in the current directory.
+
+examples: 
+`cute_asset_pipeline export --config assets/cute.ini`
+`cute_asset_pipeline export --asset-dir assets`
+
 
