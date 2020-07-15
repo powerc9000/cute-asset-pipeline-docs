@@ -89,19 +89,19 @@ Example file:
 
 You can configure the settings for exporting with either command line options or a config file. 
 Config values:
-* output-dir
+* `output-dir`
   * Directory the exporter should output the output png and json to.
   * defaults to the current directory
-* output-name
+* `output-name`
   * name use use for the .json and .png outputted files in the `output-dir` .json and .png will be added automatically so don't add a file extension
   * default to `out` (thereby creating `out.png` and `out.json`)
-* cache-dir
+* `cache-dir`
   * the exporter will cache the intermediate pngs to a directory so subsequent runs will be faster.
   * default to `cache`
-* asset-dir
+* `asset-dir`
   * directory to prepend to the `raw_asset.path` when trying to load a PSD. Eg if `asset-dir` is `assets` and the `raw_asset.path` is `player/cool.psd` exporter will look for the psd at `assets/player/cool.psd`
   * default to the current directory
-* padding 
+* `padding` 
   * padding, in pixels, around each exported asset in the final texture atlas. Useful for making sure pixels from one asset don't blend into another.
   * default to 4.
 
