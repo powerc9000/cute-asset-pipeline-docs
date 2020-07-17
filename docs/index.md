@@ -24,7 +24,7 @@ Cute Asset Pipeline should work on windows and MacOS.
 ## Getting started
 
 ### Requirements
-Currently Cute Asset Pipeline requires at you to have [Image Magick](https://imagemagick.org/script/download.php) installed. Later versions should remove this requirement. Make sure image magick is added to your path. This should already be the case on OSX. If you cannot put Image Magick in your path you can specify the path to the `convert` program in the [config file](#config)
+Some knowledge of sql is currently required for inputting assets.
 
 ### Asset Database
 Cute Asset Pipeline uses an sqlite database to track assets. You can intialize a new one by running `exporter init-db <db_name>` this will create a file in your current directory with the name you passed as `db_name`. Cute Asset Pipeline currently doesn't have a nice frontend for accessing you will either need to know how you write your own queries from your command line or download a GUI options like [Sqlite Browser](https://sqlitebrowser.org/dl/). 
