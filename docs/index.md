@@ -1,5 +1,5 @@
 # Cute Asset Pipeline
-
+![Fun Illustration of a computer](https://img.itch.zone/aW1nLzM4ODI0NzcucG5n/original/9Itfva.png)
 * [What is it?](#what-is-it)
 * [Supported Operating Systems](#supported-operating-systems)
 * [Getting Started](#getting-started)
